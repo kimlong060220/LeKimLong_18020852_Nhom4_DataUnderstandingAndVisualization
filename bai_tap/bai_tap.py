@@ -6,7 +6,7 @@ import math
 
 data = np.random.rand(5)
 a1 = pd.Series(data)
-data = pd.read_csv("Du_lieu.csv")
+data = pd.read_csv("Du_lieu_2.csv")
 # data["Gia_cu"].replace("." , "")
 tmp_1 =[]
 tmp_2 =[]
