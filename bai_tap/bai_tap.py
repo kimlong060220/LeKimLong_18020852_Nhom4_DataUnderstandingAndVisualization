@@ -22,7 +22,7 @@ data["Gia_moi"] = tmp_2
 data['discount'] = (1- data['Gia_moi']/data['Gia_cu'])*10000000
 print(data) 
 # vẽ đồ thị
-plt.xlabel("Số thứ tự sản phẩm")
+plt.xlabel("Số thứ tự của sản phẩm")
 plt.suptitle("Biểu đồ thể hiện giá của một số sản phẩm")
 plt.plot(data["STT"] , data['discount'] ,color = 'black' , label = "Discount")
 plt.bar(data["STT"] , data["Gia_cu"] ,width=.4 ,label = "Old_price")
